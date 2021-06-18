@@ -15,7 +15,7 @@
 
 The features of this app are :
 
-**-** **Splash Screen** : As soon as user opens the app, the welcoming screen that is splash screen appears and remains on the mobile screen for 5 seconds. Animations are also added.
+- **Splash Screen** : As soon as user opens the app, the welcoming screen that is splash screen appears and remains on the mobile screen for 5 seconds. Animations are also added.
 
 ![image](https://github.com/Vriddhigupta/Smart-Recycle/blob/main/Screenshots/splash_screen.jpeg)
 
