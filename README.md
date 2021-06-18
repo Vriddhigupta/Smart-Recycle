@@ -89,6 +89,7 @@ You can find a Video Demonstration of Our App at -
 ## Built with
 - Android Studio : For the development of the App
 - SqLite3 : Fot the backend support of the App.
+- IBM Cloud Services - Speech to Text, Text to Speech, IBM Watson Assistant
 
 ## Contributors 
 1. Vriddhi Gupta 
