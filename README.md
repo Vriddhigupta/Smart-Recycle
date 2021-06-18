@@ -83,7 +83,7 @@ In the future, we plan to include a Company Oriented Version of the app , which 
 ## Live demo
 
 You can find a Video Demonstration of Our App at - 
-[Lets go to the demo on YouTube](https://www.youtube.com/watch?v=6fnXCcBUGYY)
+[Please Click here to go to the demo on YouTube](https://www.youtube.com/watch?v=6fnXCcBUGYY)
 
 
 ## Built with
