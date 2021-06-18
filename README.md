@@ -16,6 +16,10 @@
 The features of this app are :
 - Splash Screen : As soon as user opens the app, the welcoming screen that is splash screen appears and remains on the mobile screen for 5 seconds. Animations are also added.
 
+<a href="url"><img src="https://github.com/Vriddhigupta/Smart-Recycle/blob/main/Screenshots/splash_screen.jpeg" align="left" height="48" width="48" ></a>
+
+-Login : Login feature is implemented for personal use experience. The feature is implemented using SQLite3 database which consists for two table: one for company and other for consumers. When the user enters the creentials that is email and password, the app checks both the database tables to find a match. If match is found then the user is logged in or else incorrect credentials message is shown.
+
 ![image](https://github.com/Vriddhigupta/Smart-Recycle/blob/main/Screenshots/splash_screen.jpeg)
 
 ## Roadmap
