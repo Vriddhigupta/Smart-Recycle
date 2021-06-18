@@ -5,7 +5,7 @@
 
 - [Roadmap](#roadmap)
 
-- [Live Demp](#live-demo)
+- [Live Demo](#live-demo)
 
 - [Built With](#built-with)
 
@@ -31,7 +31,6 @@ The features of this app are :
 ![image](https://github.com/Vriddhigupta/Smart-Recycle/blob/main/Screenshots/consumer_signup.jpeg)
 
 - Dashboard : It is a page where there are buttons to search for companies, to go to blog page and to logout of the account.
-
 ![image](https://github.com/Vriddhigupta/Smart-Recycle/blob/main/Screenshots/dashboard.jpeg)
 
 - List of companies : Here the user can see the list of all registered recycling companies and select anyone out of them. This feature is implemented using SQLite3 database. When a company registers, the company name, state, city and contact number are also stored in the database table. So we have used a recycler view, retrieved this data from the table and displayed it in the form of list. 
