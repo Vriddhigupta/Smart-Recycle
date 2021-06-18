@@ -40,7 +40,7 @@ The features of this app are :
 
 - Company description and book your slot button : After clicking on a company from the list of companies, the description page opens which consists of company name, State,City and contact number. It also consists a Button which directs the user to the booking page of that company.
 
-![image](https://github.com/Vriddhigupta/Smart-Recycle/blob/main/Screenshots/compnay_desc.jpeg)
+![image](https://github.com/Vriddhigupta/Smart-Recycle/blob/main/Screenshots/company_desc.jpeg)
 
 - Booking Page : It consists of a spinner which has different time slots from which user can select a time slot which is feasible to them. The company person will arrive between the selected time slot to collect paper and plastic. It also consists of Address box in which the user needs to provide a proper address so that the company person can reach the correct location.
 
