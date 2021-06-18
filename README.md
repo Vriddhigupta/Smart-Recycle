@@ -1,6 +1,8 @@
 # Smart-Recycle
 
 ## Contetns
+- [Problem Statement](#problem-statement)
+-
 - [Description](#description)
 
 - [Roadmap](#roadmap)
@@ -10,6 +12,9 @@
 - [Built With](#built-with)
 
 - [Contributors](#contributors)
+
+## Problem Statement
+Consumers expect a wide range of services to be available at their fingertips as a result of the numerous technical breakthroughs and evolutions taking place. People are typically worried about the amount of paper and plastic waste they create, and they simply toss it in with the wet trash. This makes it more difficult for manufacturing workers to sort waste into recyclable categories. As a result of our initiative, we now provide a service that allows you to set up pick-up times for your paper and plastic waste. And, voila, recycling is as simple as the rest of the services.
 
 ## Description
 
