@@ -32,6 +32,7 @@ The features of this app are :
 ![image](https://github.com/Vriddhigupta/Smart-Recycle/blob/main/Screenshots/consumer_signup.jpeg)
 
 - **Dashboard** : It is a page where there are buttons to search for companies, to go to blog page and to logout of the account.
+
 ![image](https://github.com/Vriddhigupta/Smart-Recycle/blob/main/Screenshots/dashboard.jpeg)
 
 - **List of companies** : Here the user can see the list of all registered recycling companies and select anyone out of them. This feature is implemented using SQLite3 database. When a company registers, the company name, state, city and contact number are also stored in the database table. So we have used a recycler view, retrieved this data from the table and displayed it in the form of list. 
@@ -61,6 +62,10 @@ The features of this app are :
 - **Blog Content** : It is a page where user can read the entire blog. This page is assisted with a scrollview so that there is no restriction on the length of content.
 
 ![image](https://github.com/Vriddhigupta/Smart-Recycle/blob/main/Screenshots/blog%20content.jpeg)
+
+- **ChatBot** : We have implemented a chatbot which will give information about environmental issues, trees,importance of recycling,etc. The main purpose is to let people know why recycling is important and why trees are important. The chatbot is implemenetd using three services of IBM Cloud namely Text to Speech, Speech to Text and Watson Assistant. The chatbot speaks while answering your question and you can also use your phone mic to type questions.
+
+![image](https://github.com/Vriddhigupta/Smart-Recycle/blob/main/Screenshots/chatbot.jpeg)
 
 
 ## Roadmap
