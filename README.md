@@ -83,7 +83,8 @@ In the future, we plan to include a Company Oriented Version of the app , which 
 ## Live demo
 
 You can find a Video Demonstration of Our App at - 
-[![IMAGE ALT TEXT](https://github.com/Vriddhigupta/Smart-Recycle/blob/main/Screenshots/splash_screen.jpeg)](http://www.youtube.com/watch?v=6fnXCcBUGYY "Smart Recycle")
+[Lets go to the demo on YouTube](https://www.youtube.com/watch?v=6fnXCcBUGYY)
+
 
 ## Built with
 - Android Studio : For the development of the App
