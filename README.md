@@ -46,6 +46,22 @@ The features of this app are :
 
 ![image](https://github.com/Vriddhigupta/Smart-Recycle/blob/main/Screenshots/book%20your%20slot.jpeg)
 
+- Blog Page : Here the user can select either to view all the blogs posted by different users or to create a blog post. This blogs are related to environment and the main purpose of having this blog feature is to create awareness about different environmental conditions like global warming, climatic changes,extinction,etc and to give solutions to environmental issues.
+
+![image](https://github.com/Vriddhigupta/Smart-Recycle/blob/main/Screenshots/Blog%20page.jpeg)
+
+- Create Blog : In order to create and display the blog we have used database table "blogs" which holds two attributes that is post title and post description(blog content). So when the user fills the title and content, it is inserted into the database table "blogs". If the user leaves any field empty then the data is no inserted.
+
+![image](https://github.com/Vriddhigupta/Smart-Recycle/blob/main/Screenshots/create_blog.jpeg)
+
+- Blog List : Here the user can find all the current blogs posted by other users. Blog list consists of cards which is arranged in the form of list. This cards consists of blog titles and upon clicking on this cards, the user is directed to the blog content page where they can read the blogs. These titles are retrieved fromthe database table.It is a page where user can read the entire blog. This page is assisted with a scrollview so that there is no restriction on the number of blogs.
+
+![image](https://github.com/Vriddhigupta/Smart-Recycle/blob/main/Screenshots/blog%20list.jpeg)
+
+- Blog Content : It is a page where user can read the entire blog. This page is assisted with a scrollview so that there is no restriction on the length of content.
+
+![image](https://github.com/Vriddhigupta/Smart-Recycle/blob/main/Screenshots/blog%20content.jpeg)
+
 
 ## Roadmap
 
