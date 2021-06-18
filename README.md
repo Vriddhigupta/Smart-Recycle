@@ -1,8 +1,9 @@
 # Smart-Recycle
 
 ## Contetns
+
 - [Problem Statement](#problem-statement)
--
+
 - [Description](#description)
 
 - [Roadmap](#roadmap)
