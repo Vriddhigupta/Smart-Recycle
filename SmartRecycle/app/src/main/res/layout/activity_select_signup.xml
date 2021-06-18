@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_recycle"
+    tools:context=".select_signup">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="150dp"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        android:textColor="#ffffff"
+        android:fontFamily="@font/fonte"
+        android:layout_centerHorizontal="true"
+        android:text="Select your Role"/>
+    <Button
+        android:id="@+id/company"
+        android:text="Company"
+        android:layout_width="300dp"
+        android:layout_height="90dp"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="400dp"
+        android:background="@drawable/rect_button"
+        app:backgroundTint="#FA897B"
+        android:textStyle="bold"
+        android:textSize="25sp"
+        android:layout_marginLeft="30dp" />
+
+    <Button
+        android:id="@+id/consumer"
+        android:text="Consumer"
+        android:layout_width="300dp"
+        android:layout_height="90dp"
+        android:background="@drawable/rect_button"
+        android:layout_marginTop="40dp"
+        android:layout_marginStart="30dp"
+        android:textStyle="bold"
+        android:textSize="25sp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/company"
+        app:backgroundTint = "#86E3CE"
+        android:layout_marginLeft="30dp" />
+
+
+
+</RelativeLayout>

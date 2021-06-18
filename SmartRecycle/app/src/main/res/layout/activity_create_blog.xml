@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/dash"
+    tools:context=".create_blog">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="@string/create_your_post"
+        android:layout_marginTop="100dp"
+        android:textSize="50sp"
+        android:fontFamily="@font/fonte"
+        android:textColor="@color/white"/>
+    <TextView
+        android:id="@+id/post_title"
+        android:layout_width="211dp"
+        android:textColor="@color/black"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="300dp"
+        android:fontFamily="casual"
+        android:text="@string/post_title"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:layout_marginStart="40dp" />
+    <EditText
+        android:layout_below="@id/post_title"
+        android:id="@+id/edttitle"
+        android:layout_width="331dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:hint="@string/enter_the_title"
+        android:paddingEnd="10dp"
+        android:paddingStart="10dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/ad_btn"
+        android:layout_marginStart="40dp"
+        android:autofillHints="Enter your title here"
+        android:inputType="textMultiLine"
+        tools:ignore="LabelFor" />
+    <TextView
+        android:id="@+id/post_desc"
+        android:layout_below="@id/edttitle"
+        android:layout_width="211dp"
+        android:textColor="@color/black"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="20dp"
+        android:fontFamily="casual"
+        android:text="@string/post_description"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:layout_marginStart="40dp" />
+    <EditText
+        android:layout_below="@id/post_desc"
+        android:id="@+id/edtdesc"
+        android:inputType="textMultiLine"
+        android:layout_width="331dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="400dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:hint="Enter your\n\n post here"
+        android:textSize="15sp"
+        android:paddingStart="10dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/ad_btn"
+        android:layout_marginStart="40dp"
+        android:autofillHints="Enter your post here"
+        tools:ignore="LabelFor,RtlSymmetry"
+        android:paddingLeft="10dp" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/create_blog"
+        android:layout_below="@id/edtdesc"
+        android:background="@drawable/rect_button"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:text="@string/create"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:backgroundTint = "@color/Redpastel"/>
+
+</RelativeLayout>
+</ScrollView>

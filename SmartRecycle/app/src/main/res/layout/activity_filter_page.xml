@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FilterPage"
+    android:background="@drawable/dash"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/fonte"
+        android:layout_marginTop="100dp"
+        android:textColor="@color/white"
+        android:text="@string/filter"
+        android:textSize="60sp"
+        android:textStyle="bold"
+        android:gravity="center_vertical"
+        android:textAlignment="center"
+        tools:ignore="RtlCompat" />
+    <TextView
+        android:layout_width="254dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="200dp"
+        android:fontFamily="casual"
+        android:textColor="@color/black"
+        android:text="@string/select_city"
+        android:textSize="25sp"
+        android:layout_marginStart="40dp" />
+
+    <Spinner
+        android:id="@+id/nextfilter"
+        android:layout_width="322dp"
+        android:layout_height="42dp"
+        android:layout_marginTop="15dp"
+        android:spinnerMode="dropdown"
+        android:background="@drawable/ad_btn"
+        android:layout_marginLeft="40dp"
+        android:layout_marginStart="40dp" />
+
+    <Button
+        android:id="@+id/filternext"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="70dp"
+        android:background="@drawable/round_rect"
+        android:text="@string/next"
+        android:textSize="19.5sp"
+        app:backgroundTint="@color/Redpastel"
+        android:layout_marginStart="60dp" />
+</LinearLayout>

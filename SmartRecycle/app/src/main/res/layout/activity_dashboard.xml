@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/dash"
+    tools:context=".dashboard">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:textSize="60sp"
+        android:textStyle="bold"
+        android:fontFamily="@font/fonte"
+        android:textColor="#ffffff"
+        android:layout_centerHorizontal="true"
+        android:text="@string/welcome"/>
+    <Button
+        android:id="@+id/search"
+        android:text="@string/search_for_recycling_companies"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="350dp"
+        android:background="@drawable/rect_button"
+        app:backgroundTint="#FA897B"
+        android:textStyle="bold"
+        android:textSize="25sp"
+        android:layout_marginLeft="30dp" />
+
+    <Button
+           android:id="@+id/blog"
+           android:text="@string/blog"
+           android:layout_width="300dp"
+           android:layout_height="60dp"
+           android:background="@drawable/rect_button"
+           android:layout_marginTop="40dp"
+           android:layout_marginStart="30dp"
+            android:textStyle="bold"
+        android:textSize="25sp"
+           android:layout_centerHorizontal="true"
+           android:layout_below="@id/search"
+           app:backgroundTint = "#86E3CE"
+        android:layout_marginLeft="30dp" />
+    <Button
+        android:id="@+id/bot"
+        android:text="@string/chatbot"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:background="@drawable/rect_button"
+        android:layout_marginTop="40dp"
+        android:layout_marginStart="30dp"
+        android:textStyle="bold"
+        android:textSize="25sp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/blog"
+        app:backgroundTint = "@color/Redpastel"
+        android:layout_marginLeft="30dp" />
+
+    <Button
+        android:id="@+id/logout"
+        android:layout_below="@id/bot"
+        android:text="@string/logout"
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/rect_button"
+        app:backgroundTint="@color/Bluepastel"
+        android:textStyle="bold"
+        android:textSize="25sp"
+        android:layout_marginLeft="30dp" />
+
+
+</RelativeLayout>

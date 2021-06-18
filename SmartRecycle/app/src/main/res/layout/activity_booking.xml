@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".booking"
+    android:background="@drawable/dash"
+    android:orientation="vertical">
+
+        <TextView
+            android:layout_width="306dp"
+            android:layout_height="135dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="60dp"
+            android:fontFamily="@font/fonte"
+            android:text="@string/book"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textSize="50sp"
+            android:textStyle="bold|italic"
+            android:gravity="center_horizontal"
+            android:layout_marginStart="50dp" />
+
+
+    <TextView
+        android:layout_width="211dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="130dp"
+        android:fontFamily="casual"
+        android:text="@string/time_slot"
+        android:textSize="25sp"
+        android:textStyle="italic"
+        android:layout_marginStart="40dp" />
+
+    <Spinner
+        android:id="@+id/dropdown"
+        android:layout_width="287dp"
+        android:layout_height="41dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="40dp"
+        android:background="@drawable/ad_btn"
+        app:backgroundTint="@null"
+        android:spinnerMode="dropdown"
+        android:layout_marginStart="40dp" />
+    <TextView
+        android:layout_width="211dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="20dp"
+        android:fontFamily="casual"
+        android:text="@string/address"
+        android:textSize="25sp"
+        android:textStyle="italic"
+        android:layout_marginStart="40dp" />
+
+    <EditText
+        android:id="@+id/address"
+        android:layout_width="331dp"
+        android:layout_height="107dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/ad_btn"
+        android:layout_marginStart="40dp"
+        android:autofillHints="Enter your address here"
+        android:inputType="text"
+        tools:ignore="LabelFor" />
+
+    <Button
+        android:id="@+id/done"
+        android:layout_width="144dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="135dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/done1"
+        android:textSize="17sp"
+        android:background="@drawable/rect_button"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        app:backgroundTint="@color/Redpastel"
+        android:gravity="center_horizontal"
+        android:layout_marginStart="135dp" />
+</LinearLayout>
